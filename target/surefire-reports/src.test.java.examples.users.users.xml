@@ -1,0 +1,49 @@
+<testsuite failures="2" name="src/test/java/examples/users/users.feature" skipped="0" tests="2" time="67.44446">
+  <testcase classname="src.test.java.examples.users.users" name="get all users and then get the first user by id" time="33.80694">
+    <failure message="users.feature:15 - &#10;java.net.SocketTimeoutException: Read timed out">* url 'https://jsonplaceholder.typicode.com' .............................. passed
+Given path 'users' ........................................................ passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+* def first = response[0] ................................................. passed
+Given path 'users', first.id .............................................. passed
+When method get ........................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: users.feature:15 - 
+java.net.SocketTimeoutException: Read timed out&#13;
+	at ✽.When method get (users.feature:15)&#13;
+
+Then status 200 ........................................................... skipped</failure>
+  </testcase>
+  <testcase classname="src.test.java.examples.users.users" name="create a user and then get it by id" time="33.637521">
+    <failure message="users.feature:38 - &#10;java.net.SocketTimeoutException: Read timed out">* url 'https://jsonplaceholder.typicode.com' .............................. passed
+Given path 'users' ........................................................ passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+* def first = response[0] ................................................. passed
+Given path 'users', first.id .............................................. passed
+When method get ........................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: users.feature:15 - 
+java.net.SocketTimeoutException: Read timed out&#13;
+	at ✽.When method get (users.feature:15)&#13;
+
+Then status 200 ........................................................... skipped
+* url 'https://jsonplaceholder.typicode.com' .............................. passed
+* def user = .............................................................. passed
+Given url 'https://jsonplaceholder.typicode.com/users' .................... passed
+And request user .......................................................... passed
+When method post .......................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: users.feature:38 - 
+java.net.SocketTimeoutException: Read timed out&#13;
+	at ✽.When method post (users.feature:38)&#13;
+
+Then status 201 ........................................................... skipped
+* def id = response.id .................................................... skipped
+* print 'created id is: ' + id ............................................ skipped
+Given path id ............................................................. skipped</failure>
+  </testcase>
+</testsuite>

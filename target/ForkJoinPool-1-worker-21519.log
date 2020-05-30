@@ -1,0 +1,13 @@
+17:43:59.095 request:
+1 > POST http://localhost:3030/products
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 185
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:3030
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_181)
+{"name":"Demo3","type":"type3","price":2,"shipping":1234568,"upc":"def","description":"demo description 2","manufacturer":"manufacturer2","model":"model2","url":"url2","image":"image2"}
+
+17:44:03.195 org.apache.http.conn.HttpHostConnectException: Connect to localhost:3030 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect, http call failed after 4099 milliseconds for URL: http://localhost:3030/products
+17:44:03.208 http request failed: 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:3030 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect

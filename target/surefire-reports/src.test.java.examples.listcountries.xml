@@ -1,0 +1,9 @@
+<testsuite failures="0" name="src/test/java/examples/listcountries.feature" skipped="0" tests="1" time="4.07517">
+  <testcase classname="src.test.java.examples.listcountries" name="get list of all countries" time="4.07517">
+    <system-out>* url 'https://restcountries.eu' .......................................... passed
+* header Accept = 'application/json' ...................................... passed
+Given path '/rest/v2/all' ................................................. passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed</system-out>
+  </testcase>
+</testsuite>

@@ -1,0 +1,76 @@
+17:43:55.753 karate.env system property was:  
+17:43:59.091 request:
+1 > GET https://mirror.attinadsoftware.com
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: mirror.attinadsoftware.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_181)
+
+17:44:00.041 response time in milliseconds: 949.89
+1 < 200
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < Connection: keep-alive
+1 < Content-Type: text/html; charset=utf-8
+1 < Date: Sat, 30 May 2020 16:43:59 GMT
+1 < ETag: W/"ddf9b9568a895e8a20e1c54c5ac153fe"
+1 < Server: nginx/1.14.0 + Phusion Passenger 6.0.2
+1 < Set-Cookie: _session_id=e18a421644387558e8dbb5e3ff5c8e9b; path=/; HttpOnly
+1 < Status: 200 OK
+1 < Transfer-Encoding: chunked
+1 < X-Content-Type-Options: nosniff
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-Powered-By: Phusion Passenger 6.0.2
+1 < X-Request-Id: 64ae106a-3dff-4ca9-bc83-ad439b7c6da8
+1 < X-Runtime: 0.013574
+1 < X-XSS-Protection: 1; mode=block
+<!DOCTYPE html>
+<html lang="en" class="home">
+
+<head>
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon-004e4d66444fe9979601dcb5887fba9f81e1410a930935ad598325f3574cf8bd.ico" />
+  <link rel="icon" type="image/x-icon" href="/assets/favicon-004e4d66444fe9979601dcb5887fba9f81e1410a930935ad598325f3574cf8bd.ico" />
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+  <title>Mirror</title>
+
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="nJ3jDYQC1jG8hqNwzmyNf+V9EIpn74ai2ZuNkXcjTPPm2lOPXa13BD2miUaNF5nGzIVlG9WWU8fLsbsTc+ThdQ==" />
+  <link rel="stylesheet" media="all" href="/assets/application-employee-ca6c6f1aaae9aa3c4b48293a509a1bb901c2db85b1de4585915ec9ec62333d90.css" data-turbolinks-track="true" />
+  
+
+
+</head>
+
+<body>
+
+<div class="loading-page">
+
+  <header>
+
+    <div class="loading-title text-center">
+      <h2 class="logo">
+        <img src="/assets/mirror-logo-8674d9b335c504d3a2bc81780a3fbfc06369dc46d13c64f03b372059ca718fd1.png" alt="Mirror logo" />
+        <small>
+          v1.5
+        </small>
+      </h2>
+    </div>
+
+  </header>
+
+  <div class="container">
+
+
+
+  </div>
+  <button type="button" class="log-btn" name="button" onClick="javascript:location.href ='/oauth/login'">Login</button>
+
+</div>
+
+</body>
+
+</html>
+
+
+17:44:00.068 xml parsing failed, response data type set to string: org.xml.sax.SAXParseException; lineNumber: 18; columnNumber: 3; The element type "meta" must be terminated by the matching end-tag "</meta>".

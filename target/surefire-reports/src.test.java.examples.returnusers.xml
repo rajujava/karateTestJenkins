@@ -1,0 +1,10 @@
+<testsuite failures="0" name="src/test/java/examples/returnusers.feature" skipped="0" tests="1" time="4.064358">
+  <testcase classname="src.test.java.examples.returnusers" name="list all the users having name with john" time="4.064358">
+    <system-out>* url 'https://gorest.co.in' .............................................. passed
+* header Authorization = 'HlJnuc-t_wg1W1RGYs6-hKhVcxdkMvbjana8' ........... passed
+Given path '/public-api/users' ............................................ passed
+And param first_name = 'john' ............................................. passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed</system-out>
+  </testcase>
+</testsuite>

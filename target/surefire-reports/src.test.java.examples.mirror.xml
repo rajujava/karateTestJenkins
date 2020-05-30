@@ -1,0 +1,7 @@
+<testsuite failures="0" name="src/test/java/examples/mirror.feature" skipped="0" tests="1" time="4.207807">
+  <testcase classname="src.test.java.examples.mirror" name="fetch mirror url" time="4.207807">
+    <system-out>Given url 'https://mirror.attinadsoftware.com' ............................ passed
+Given method get .......................................................... passed
+Then status 200 ........................................................... passed</system-out>
+  </testcase>
+</testsuite>

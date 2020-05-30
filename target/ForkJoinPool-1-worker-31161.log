@@ -1,0 +1,14 @@
+17:43:55.756 karate.env system property was:  
+17:43:59.096 request:
+1 > POST https://jsonplaceholder.typicode.com/users
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 160
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: jsonplaceholder.typicode.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_181)
+{"name":"Test User","username":"testuser","email":"test@user.com","address":{"street":"Has No Name","suite":"Apt. 123","city":"Electri","zipcode":"54321-6789"}}
+
+17:44:29.501 java.net.SocketTimeoutException: Read timed out, http call failed after 30404 milliseconds for URL: https://jsonplaceholder.typicode.com/users
+17:44:29.501 http request failed: 
+java.net.SocketTimeoutException: Read timed out

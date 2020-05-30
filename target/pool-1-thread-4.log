@@ -1,0 +1,21 @@
+17:43:55.750 karate.env system property was:  
+17:43:59.090 request:
+1 > GET https://gorest.co.in/public-api/users?first_name=john
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: HlJnuc-t_wg1W1RGYs6-hKhVcxdkMvbjana8
+1 > Connection: Keep-Alive
+1 > Host: gorest.co.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_181)
+
+17:43:59.927 response time in milliseconds: 835.61
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=UTF-8
+1 < Date: Sat, 30 May 2020 16:43:58 GMT
+1 < Server: nginx
+1 < Transfer-Encoding: chunked
+1 < Vary: [Accept-Encoding, Accept]
+1 < Www-Authenticate: Bearer realm="api"
+1 < X-Frame-Options: sameorigin
+{"_meta":{"success":false,"code":401,"message":"Authentication failed."},"result":{"name":"Unauthorized","message":"Your request was made with invalid credentials.","code":0,"status":401}}
+
