@@ -23,4 +23,4 @@ Scenario Outline: Get call testing
 		| 3 |
 		| 4 |
 		| 5 |
-		| 10 |	
+		| 100 |	
